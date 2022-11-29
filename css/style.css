@@ -15,4 +15,5 @@ body{
 
 :root {
     --accent-clr: rgba(0, 0, 0, 0.233); 
+    z-index: 1;
 }

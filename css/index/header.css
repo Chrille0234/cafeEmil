@@ -46,6 +46,7 @@ header i{
 @media (max-width: 400px){
     .dropdown-content{
         font-size: 1rem;
+        z-index: 10;
     }
 }
   /* links i den */
@@ -56,6 +57,6 @@ header i{
     display: block;
   }
   /* funktionen */
-  .dropdown-content a:hover {background-color: rgba(0, 0, 0, 0.199); border-radius: 10px;}
+  .dropdown-content a:hover {background-color: rgba(0, 0, 0, 0.199); border-radius: 10px; z-index: 2;}
   .dropdown:hover .dropdown-content {display: block;  border-radius: 0px, 10px, 0px, 10px;}
   .dropdown:hover .dropbtn {background-color: #3e8e41;}
