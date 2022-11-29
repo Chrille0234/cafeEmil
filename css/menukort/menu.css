@@ -1,0 +1,21 @@
+.menukort{
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: center;
+
+}
+.menukort img{
+    margin: 10px;
+}
+
+@media (max-width: 400px){
+    .menukort img{
+        width: 100vw;
+    }
+    .menukort{
+        margin-top: 50vh;
+        flex-direction: column;
+    }
+}

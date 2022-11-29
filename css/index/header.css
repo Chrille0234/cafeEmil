@@ -1,0 +1,55 @@
+header{
+    background-color: rgb(0, 0, 0);
+    height: 5vh;
+    width: 100vw;
+    opacity: 95%;
+
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+header img{
+    height: 6vh;
+    width: 120%;
+
+    opacity: 100%;
+}
+
+
+/* dropdown menuen */
+header i{
+    position: absolute;
+    font-size: 5vh;
+    left: 0.5vw;
+    top: 0.5vh;
+    color: rgb(190, 185, 185);
+    
+    opacity: 100%;
+}
+    /* selve indeholdet */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 5vh;
+    left: 0.5vw;
+    background-color: #ffff;
+    min-width: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;  
+    font-size: 2em;   
+  }
+  /* links i den */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  /* funktionen */
+  .dropdown-content a:hover {background-color: rgba(0, 0, 0, 0.199); border-radius: 10px;}
+  .dropdown:hover .dropdown-content {display: block;  border-radius: 0px, 10px, 0px, 10px;}
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}

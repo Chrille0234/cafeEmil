@@ -1,0 +1,18 @@
+@import url(index/header.css);
+@import url(index/main.css);
+@import url(menukort/menu.css);
+
+body{
+    margin: 0;
+    background-image: url(images/kaffe.JPG);
+
+}
+@media (min-width: 479px) {
+    body {
+        background-size: cover;
+    }
+}
+
+:root {
+    --accent-clr: rgba(0, 0, 0, 0.233); 
+}
