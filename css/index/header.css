@@ -1,6 +1,6 @@
 header{
     background-color: rgb(0, 0, 0);
-    height: 5vh;
+    height: 6vh;
     width: 100vw;
     opacity: 95%;
 
@@ -39,8 +39,9 @@ header i{
     background-color: #ffff;
     min-width: auto;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;  
-    font-size: 2em;   
+    z-index: 2;  
+    font-size: 2em;
+    border-radius: 10px;
   }
 @media (max-width: 400px){
     .dropdown-content{
