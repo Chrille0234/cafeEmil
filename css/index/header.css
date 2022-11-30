@@ -43,10 +43,21 @@ header i{
     font-size: 2em;
     border-radius: 10px;
   }
-@media (max-width: 400px){
+@media (max-width: 426px){
     .dropdown-content{
-        font-size: 1rem;
+        font-size: 2rem;
         z-index: 10;
+    }
+    header, header img{
+        height: 8vh;
+    }
+    header i{
+        font-size: 7vh;
+    }
+    .menuKlik{
+      display: block;
+      z-index: 2;
+    
     }
 }
   /* links i den */
@@ -57,6 +68,10 @@ header i{
     display: block;
   }
   /* funktionen */
-  .dropdown-content a:hover {background-color: rgba(0, 0, 0, 0.199); border-radius: 10px; z-index: 2;}
-  .dropdown:hover .dropdown-content {display: block;  border-radius: 0px, 10px, 0px, 10px;}
-  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+  .dropdown-content a:hover {background-color: rgba(0, 0, 0, 0.199); border-radius: 10px;}
+  .dropdown:hover .dropbtn {background-color: #3e8e41; z-index: 2;}
+  /* hover for computer brug */
+  @media (min-width: 427px) {
+    .dropdown:hover .dropdown-content {display: block;}
+}
+

@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="css/style.css">
+    <script src="JavaScript/menu.js"></script>
     <script src="https://kit.fontawesome.com/6186056156.js" crossorigin="anonymous"></script>
 
     <meta charset="UTF-8">
@@ -10,16 +11,16 @@
     <title>Cafe Emil</title>
 </head>
 <body>
-    <header>
+    <header style="z-index: 2;">
         <div class="dropdown">
-            <i class="fa-solid fa-bars"></i>
-            <div class="dropdown-content">
+            <i class="fa-solid fa-bars" onclick="menu()"></i>
+            <div class="dropdown-content" id="menu">
                 <a href="index.html">Forside</a>
                 <a href="menu.html">Menu</a>
                 <a href="reservation.html">Reservation</a>
             </div>
         </div>
-            <a href="index.html"><img src="css/images/logo.png" alt=""></a>
+        <a href="index.html"><img src="css/images/logo.png" alt=""></a>
     </header>
 
 
