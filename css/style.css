@@ -1,6 +1,7 @@
 @import url(index/header.css);
 @import url(index/main.css);
 @import url(menukort/menu.css);
+@import url(reservation/bestilling.css);
 
 body{
     margin: 0;
