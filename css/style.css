@@ -7,6 +7,9 @@ body{
     background-image: url(images/kaffe.JPG);
 
 }
+a{
+    border-bottom: 1px solid black;
+}
 @media (min-width: 479px) {
     body {
         background-size: cover;
