@@ -2,15 +2,19 @@
 .tidsbestilling{
   display: grid;
   gap: 1vh;
-}
-input{
-  height: 2vh;
+  grid-template-columns: repeat(auto, minmax(50px, 200px));
+
 }
 
-article{
-  grid-template-columns: 2;
-  grid-template-rows: 22;
+
+input[type="submit"] {
+  grid-column: span 2;
+  font-size: 2em;
 }
+input[type="submit"]:active{
+  filter: brightness(80%);
+}
+
 
 
 
@@ -26,6 +30,8 @@ article{
   label {
     display: block;
     color: white;
+    font-size: 1.4rem;
+    
   }
   input {
     border: 1px solid #c4c4c4;
@@ -33,5 +39,7 @@ article{
     background-color: #fff;
     padding: 3px 5px;
     box-shadow: inset 0 3px 6px rgba(0,0,0,0.1);
-    width: 190px;
+    aspect-ratio: 16 / 4;
+    width: 100%;
+    box-sizing: border-box;
   }
