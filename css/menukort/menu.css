@@ -21,7 +21,7 @@
         margin: 10px;
     }
     .menukort{
-        transform: translateY(30vh);
+        transform: translateY(20vh);
         flex-direction: column;
         z-index: 1;
     }
