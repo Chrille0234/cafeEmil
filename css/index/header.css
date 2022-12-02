@@ -71,7 +71,7 @@ header i{
   .dropdown-content a:hover {background-color: rgba(0, 0, 0, 0.199); border-radius: 10px;}
   .dropdown:hover .dropbtn {background-color: #3e8e41; z-index: 2;}
   /* hover for computer brug */
-  @media (min-width: 427px) {
+  @media (min-width: 450px) {
     .dropdown:hover .dropdown-content {display: block;}
 }
 

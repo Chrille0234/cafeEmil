@@ -22,7 +22,7 @@ main div h1::after{
 }
 
 /* mobilbrug */
-@media (max-width: 426px){
+@media (max-width: 450px){
     main div{
         font-size: 1em;
         width: 19em;

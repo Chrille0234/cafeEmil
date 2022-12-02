@@ -1,0 +1,7 @@
+@media (max-width: 426px){
+    article{
+
+        flex-direction: column;
+        font-size: 1rem;
+    }
+}

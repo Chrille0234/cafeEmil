@@ -14,7 +14,7 @@
     border-radius: 10px;
 }
 
-@media (max-width: 426px){
+@media (max-width: 450px){
     .menukort img{
         width: 90vw;
         transform: scale(1);
